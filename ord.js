@@ -22,8 +22,6 @@ module.exports = function(n) {
         return '';
     }
 
-    console.log(n);
-
     var rem100 = n % 100;
     if ( rem100 === 11 || rem100 === 12 || rem100 === 13 ) {
         return 'th';
