@@ -16,7 +16,7 @@ Does not give you anything for zero, negative numbers, NaN, Infinity or real num
 
 Does not give you anything for something which isn't a number.
 
-## Example ##
+## Synopsis ##
 
 ```
 var a = 21;
@@ -25,13 +25,41 @@ console.log('Happy ' + a + ord(a));
 
 Will print out 'Happy 21st'.
 
-# Author #
+## Author ##
 
-Written by [Andrew Chilton](http://chilts.org/) - [Blog](http://chilts.org/blog/) -
-[Twitter](https://twitter.com/andychilton).
+```
+$ npx chilts
+
+   ╒════════════════════════════════════════════════════╕
+   │                                                    │
+   │   Andrew Chilton (Personal)                        │
+   │   -------------------------                        │
+   │                                                    │
+   │          Email : andychilton@gmail.com             │
+   │            Web : https://chilts.org                │
+   │        Twitter : https://twitter.com/andychilton   │
+   │         GitHub : https://github.com/chilts         │
+   │         GitLab : https://gitlab.org/chilts         │
+   │                                                    │
+   │   Apps Attic Ltd (My Company)                      │
+   │   ---------------------------                      │
+   │                                                    │
+   │          Email : chilts@appsattic.com              │
+   │            Web : https://appsattic.com             │
+   │        Twitter : https://twitter.com/AppsAttic     │
+   │         GitLab : https://gitlab.com/appsattic      │
+   │                                                    │
+   │   Node.js / npm                                    │
+   │   -------------                                    │
+   │                                                    │
+   │        Profile : https://www.npmjs.com/~chilts     │
+   │           Card : $ npx chilts                      │
+   │                                                    │
+   ╘════════════════════════════════════════════════════╛
+```
 
 # License #
 
-[Copyright 2013 Andrew Chilton. All rights reserved.](http://chilts.mit-license.org/2013/)
+[Copyright 2013-2019 Andrew Chilton. All rights reserved.](http://chilts.mit-license.org/2013/)
 
 (Ends)
