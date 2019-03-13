@@ -10,6 +10,8 @@
                            
 ```
 
+[![Build Status](https://travis-ci.org/chilts/ord.svg?branch=master)](https://travis-ci.org/chilts/ord)
+
 Gives you the 'st', 'nd', 'rd' or 'th' of a whole number.
 
 Does not give you anything for zero, negative numbers, NaN, Infinity or real numbers (e.g. 3.14).
