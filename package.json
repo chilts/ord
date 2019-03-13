@@ -1,42 +1,39 @@
 {
-    "name" : "ord",
-    "version" : "0.1.1",
-    "description" : "Easily get the ordinal 'st', 'nd', 'rd' or 'th' of cardinal numbers.",
-
-    "main" : "ord.js",
-
-    "homepage" : "https://github.com/chilts/ord/",
-    "repository" : {
-        "type" : "git",
-        "url" : "https://github.com/chilts/ord.git"
+    "name": "ord",
+    "version": "0.1.1",
+    "description": "Easily get the ordinal 'st', 'nd', 'rd' or 'th' of cardinal numbers.",
+    "main": "ord.js",
+    "homepage": "https://github.com/chilts/ord/",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/chilts/ord.git"
     },
-    "bugs" : {
-        "url" : "https://github.com/chilts/ord/issues",
-        "email" : "andychilton@gmail.com"
+    "bugs": {
+        "url": "https://github.com/chilts/ord/issues",
+        "email": "andychilton@gmail.com"
     },
-
-    "author" : {
-        "name" : "Andrew Chilton",
-        "email" : "andychilton@gmail.com",
-        "url" : "http://chilts.org/"
+    "author": {
+        "name": "Andrew Chilton",
+        "email": "andychilton@gmail.com",
+        "url": "http://chilts.org/"
     },
-    "contributors" : [],
-
-    "dependencies" : {},
-    "devDependencies" : {
-        "tape" : "1.0.x"
+    "contributors": [],
+    "dependencies": {},
+    "devDependencies": {
+        "tape": "^4.10.1"
     },
-
-    "scripts" : {
-        "test" : "set -e; for FILE in test/*.js; do node $FILE; done"
+    "scripts": {
+        "test": "set -e; for FILE in test/*.js; do node $FILE; done"
     },
-
-    "licenses" : [{
-        "type" : "MIT",
-        "url" : "http://github.com/chilts/ord/raw/master/LICENSE"
-    }],
-
-    "keywords" : [
-        "number", "cardinal", "ordinal"
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "http://github.com/chilts/ord/raw/master/LICENSE"
+        }
+    ],
+    "keywords": [
+        "number",
+        "cardinal",
+        "ordinal"
     ]
 }
