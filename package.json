@@ -1,6 +1,6 @@
 {
     "name": "ord",
-    "version": "0.1.1",
+    "version": "1.0.0",
     "description": "Easily get the ordinal 'st', 'nd', 'rd' or 'th' of cardinal numbers.",
     "main": "ord.js",
     "homepage": "https://github.com/chilts/ord/",
